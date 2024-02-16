@@ -1,7 +1,8 @@
 .header {
     background-color: #1D1D1D;
     color: white;
-    padding: 0 10em;
+    padding: 0 5em;
+    overflow: hidden;
 }
 
 .header__items {
@@ -11,21 +12,30 @@
 }
 
 .header__logotype-img img {
-    width: 100px;
+    width: 80px;
     height: auto;
 }
 
-.header__buttons ul {
+.header__logotype-img img:hover{
+    cursor: pointer;
+}
+
+.header ul {
     list-style: none;
     display: flex;
     justify-content: center;
     margin: auto;
-    padding: 50px;
 }
 
-.header__buttons li {
+.header__buttons a {
+    cursor: pointer;
     margin: 0 20px;
     font-size: 20px;
+    color: white;
+}
+
+.header__buttons a:hover{
+    color: red;
 }
 
 .header__phone {
@@ -34,20 +44,42 @@
     flex-direction: column;
 }
 
-.header__phone-numbers{
-    font-size: 30px;
-    font-weight: 550;
-}
-
-.header__phone-link a{
-    font-size: 25px;
-    font-weight: 350;
+.header__phone a {
+    font-size: 19px;
+    font-weight: 400; 
     color: white;
+    text-decoration: none; 
+    position: relative;
+}
+
+.header__phone-link a::before {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px; 
+    background-color: white;
+    transition: width 0.6s ease-out; 
+}
+
+.header__phone-link a:hover::before {
+    width: 100%; 
+}
+
+.header__phone a:hover{
+    width: 100%; 
+}
+.header__social-networks img{
+    width: 20px;
+    height: auto;
+    margin: 5px;
+    transition: transform 0.3s ease;
+}
+
+.header__social-networks img:hover{
+    transform: scale(1.2);
 }
 
 
-.header__logotype-text {
-    
-    display: block;
-}
 
