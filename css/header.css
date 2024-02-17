@@ -82,8 +82,125 @@
 }
 
 @media (max-width: 1200px) {
-    
+    .header {
+        padding: 0 3em;
+    }
+    .header__logotype-img img {
+        width: 65px;
+    }
+    .header__buttons a {
+        margin: 0 14px;
+        font-size: 15px;
+    }
+    .header__phone a {
+        font-size: 16px;
+        font-weight: 370; 
+    }
+    .header__social-networks img{
+        width: 18px;
+        margin: 4px;
+    }
 }
+
+@media (max-width: 900px) {
+    .header {
+        padding: 0 2em;
+    }
+    .header__logotype-img img {
+        width: 55px;
+    }
+    .header__buttons a {
+        margin: 0 11px;
+        font-size: 12px;
+    }
+    .header__phone a {
+        font-size: 13px;
+        font-weight: 340; 
+    }
+    .header__social-networks img{
+        width: 15px;
+        margin: 3px;
+    }
+}
+
+@media (max-width: 700px) {
+    .header {
+        padding: 0 1em;
+    }
+    .header__logotype-img img {
+        width: 40px;
+    }
+    .header__buttons a {
+        margin: 0 9px;
+        font-size: 11px;
+    }
+    .header__phone a {
+        font-size: 9px;
+        font-weight: 300;
+    }
+    .header__social-networks img{
+        width: 13px;
+        margin: 3px;
+    }
+}
+@media (max-width: 570px){
+    .header {
+        padding: 0 0.5em;
+    }
+    .header__logotype-img img {
+        width: 30px;
+    }
+    .header__buttons a {
+        margin: 0 6px;
+        font-size: 8px;
+    }
+    .header__phone a {
+        font-size: 6px;
+        font-weight: 200;
+    }
+    .header__social-networks img{
+        width: 10px;
+        margin: 2px;
+    }
+    .header__phone-numbers,
+    .header__phone-numbers2,
+    .header__phone-link{
+        margin: 1px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 400px){
+    .header {
+        padding: 0 0.5em;
+    }
+    .header__logotype-img img {
+        width: 20px;
+    }
+    .header__buttons a {
+        margin: 0 5px;
+        font-size: 5px;
+    }
+    .header__phone a {
+        font-size: 3px;
+        font-weight: 100;
+    }
+    .header__social-networks img{
+        width: 6px;
+        margin: 1px;
+    }
+    .header__phone-numbers,
+    .header__phone-numbers2,
+    .header__phone-link{
+        margin: 1px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
 
 
 
