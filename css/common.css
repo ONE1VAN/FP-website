@@ -12,13 +12,13 @@ a {
 
 @font-face {
   font-family: "PTSans1";
-  src: url("../fonts/PTSans-Regular.ttf") format("truetype"); 
+  src: url("https://fonts.gstatic.com/s/ptsans/v17/jizaRExUiTo99u79D0-ExdGM.woff2") format("truetype"); 
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "bebasNeue";
-  src: url("../fonts/BebasNeue-Regular.woff2") format("woff2"); 
+  src: url("https://fonts.gstatic.com/s/bebasneue/v14/JTUSjIg69CK48gW7PXoo9Wdhyzbi.woff2") format("woff2"); 
   font-weight: normal;
   font-style: normal;
 }

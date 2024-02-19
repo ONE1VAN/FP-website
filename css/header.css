@@ -3,6 +3,7 @@
     color: white;
     padding: 0 5em;
     overflow: hidden;
+    font-family: "bebasNeue", sans-serif;
 }
 
 .header__items {
@@ -180,12 +181,11 @@
         width: 40px;
     }
     .header__buttons a {
-        flex-direction: column;
         margin: 0 6px;
-        font-size: 10px;
+        font-size: 9.7px;
     }
     .header__phone a {
-        font-size: 8px;
+        font-size: 9px;
         font-weight: 300;
     }
     .header__social-networks img{
@@ -202,13 +202,13 @@
     }
 }
 
-@media (max-width: 447px){
+@media (max-width: 455px){
     .header__social-networks img{
         display: none;
     }
 }
 
-@media (max-width: 400px){
+@media (max-width: 402px){
     .header {
         padding: 0 0.1em;
     }
@@ -236,7 +236,7 @@
     }
 }
 
-@media (max-width: 351px){
+@media (max-width: 358px){
     .header__logotype-img img {
         display: none;
     }
