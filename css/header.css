@@ -3,7 +3,6 @@
     color: white;
     padding: 0 5em;
     overflow: hidden;
-    font-family: "bebasNeue", sans-serif;
 }
 
 .header__items {
@@ -124,7 +123,7 @@
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 711px) {
     .header {
         padding: 0 1em;
     }
@@ -144,24 +143,24 @@
         margin: 3px;
     }
 }
-@media (max-width: 570px){
+@media (max-width: 580px){
     .header {
-        padding: 0 0.5em;
+        padding: 0 0.3em;
     }
     .header__logotype-img img {
         width: 30px;
     }
     .header__buttons a {
         margin: 0 6px;
-        font-size: 10px;
+        font-size: 9.7px;
     }
     .header__phone a {
-        font-size: 9px;
+        font-size: 8.7px;
         font-weight: 300;
     }
     .header__social-networks img{
-        width: 10px;
-        margin: 2px;
+        width: 8.5px;
+        margin: 1.5px;
     }
     .header__phone-numbers,
     .header__phone-numbers2,
@@ -178,7 +177,7 @@
         padding: 0 0.1em;
     }
     .header__logotype-img img {
-        width: 40px;
+        width: 30px;
     }
     .header__buttons a {
         margin: 0 6px;
@@ -202,13 +201,13 @@
     }
 }
 
-@media (max-width: 455px){
+@media (max-width: 457px){
     .header__social-networks img{
         display: none;
     }
 }
 
-@media (max-width: 402px){
+@media (max-width: 408px){
     .header {
         padding: 0 0.1em;
     }
@@ -216,11 +215,11 @@
         width: 30px;
     }
     .header__buttons a {
-        margin: 0 4px;
-        font-size: 9px;
+        margin: 0 2px;
+        font-size: 8.8px;
     }
     .header__phone a {
-        font-size: 9px;
+        font-size: 8.8px;
         font-weight: 100;
     }
     .header__social-networks img{
