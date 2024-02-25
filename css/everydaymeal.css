@@ -7,7 +7,7 @@
 
 .everydaymeal__texts{
     padding-top: 4.5%;
-    padding-left: 13%;
+    padding-left: 8%;
     padding-right: 56%;
     padding-bottom: 2%;
     text-align: start;
@@ -23,7 +23,7 @@
 
 .everydaymeal__texts-title{
     margin-bottom: 1.5em;
-    font-size: 19.8px;
+    font-size: 21.5px;
     font-weight: 700;
 }
 .kyivpoint{
@@ -32,7 +32,7 @@
 
 .everydaymeal__texts-text{
     margin-bottom: 2.5em;
-    font-size: 17.5px;
+    font-size: 19px;
 }
 
 .everydaymeal__texts-button button{
@@ -61,7 +61,7 @@
 }
 
 .money{
-    font-size: 18px;
+    font-size: 21px;
     color: red;
     font-weight: 700;
 }
