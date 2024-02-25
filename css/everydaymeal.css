@@ -14,7 +14,7 @@
     z-index: 2;
 }
 
-.everydaymeal_img{
+.everydaymeal__img{
     padding-top: 2%;
     padding-left: 53%;
     position: absolute;
@@ -54,4 +54,341 @@
     background-color: rgba(200, 0, 0, 0.8);
     color: lightgrey;
     filter: grayscale(30%);
+}
+
+.healthy{
+    color: red;
+}
+
+.money{
+    font-size: 18px;
+    color: red;
+    font-weight: 700;
+}
+
+@media (max-width: 1200px){
+    .everydaymeal{
+        background-color: #1D1D1D;
+        color: white;
+        display: flex;
+        font-family: "PTSans1", sans-serif;
+    }
+    
+    .everydaymeal__texts{
+        padding-top: 4.5%;
+        padding-left: 5%;
+        padding-right: 55%;
+        padding-bottom: 2%;
+        z-index: 2;
+    }
+    .everydaymeal__img img{
+        max-width: 500px;
+    }
+
+    .everydaymeal__img{
+        padding-top: 2%;
+        padding-left: 48%;
+        position: absolute;
+        z-index: 1;
+    }
+    
+    .everydaymeal__texts-title{
+        margin-bottom: 1.5em;
+        font-size: 17.5px;
+        font-weight: 700;
+    }
+    .kyivpoint{
+        color: red;
+    }
+    
+    .everydaymeal__texts-text{
+        margin-bottom: 2.5em;
+        font-size: 15.5px;
+    }
+    .money{
+        font-size: 17.5px;
+        color: red;
+        font-weight: 700;
+    } 
+}
+
+@media (max-width: 1000px){
+    .everydaymeal{
+        background-color: #1D1D1D;
+        color: white;
+        display: flex;
+        font-family: "PTSans1", sans-serif;
+    }
+    
+    .everydaymeal__texts{
+        padding-top: 4.5%;
+        padding-left: 5%;
+        padding-right: 55%;
+        padding-bottom: 2%;
+        z-index: 2;
+    }
+    .everydaymeal__img img{
+        max-width: 450px;
+    }
+
+    .everydaymeal__img{
+        padding-top: 2%;
+        padding-left: 48%;
+        position: absolute;
+        z-index: 1;
+    }
+    
+    .everydaymeal__texts-title{
+        margin-bottom: 1.5em;
+        font-size: 17px;
+        font-weight: 700;
+    }
+    .kyivpoint{
+        color: red;
+    }
+    
+    .everydaymeal__texts-text{
+        margin-bottom: 2.5em;
+        font-size: 15px;
+    }
+    .money{
+        font-size: 17px;
+        color: red;
+        font-weight: 700;
+    } 
+}
+
+@media (max-width: 900px){
+    .everydaymeal{
+        background-image: url("../img/back.jpg");
+        background-repeat: no-repeat;  
+        background-size: cover;
+        background-color: rgba(0, 0, 0, 0.5); 
+        background-blend-mode: overlay;
+        
+    }
+    .everydaymeal__texts{
+        padding-top: 4.5%;
+        padding-left: 5%;
+        padding-right: 3%;
+        padding-bottom: 5%;
+    }
+    .everydaymeal__img{
+        display: none;
+    }
+    .diet{
+        color: white;
+    }
+    .everydaymeal__texts-title{
+        margin-bottom: 1.5em;
+        font-size: 21.5px;
+        font-weight: 800;
+    }
+    
+    .everydaymeal__texts-text{
+        margin-bottom: 2.5em;
+        font-size: 19.5px;
+    }
+    .kyivpoint,
+    .prof{
+        color: white;
+        text-decoration: underline;
+    }
+    .prof{
+        font-weight: 750;
+    }
+    .money{
+        font-size: 21.5px;
+        color: red;
+        font-weight: 800;
+    }
+
+}
+
+@media (max-width: 750px){
+    .everydaymeal{
+        background-image: url("../img/back.jpg");
+        background-repeat: no-repeat;  
+        background-size: cover;
+        background-color: rgba(0, 0, 0, 0.5); 
+        background-blend-mode: overlay;
+        
+    }
+    .everydaymeal__texts{
+        padding-top: 4.5%;
+        padding-left: 6%;
+        padding-right: 5%;
+        padding-bottom: 5%;
+    }
+    .everydaymeal__img{
+        display: none;
+    }
+    .diet{
+        color: white;
+    }
+    .everydaymeal__texts-title{
+        margin-bottom: 1.5em;
+        font-size: 20.5px;
+        font-weight: 800;
+    }
+    
+    .everydaymeal__texts-text{
+        margin-bottom: 2.5em;
+        font-size: 18px;
+    }
+    .kyivpoint,
+    .prof{
+        color: white;
+        text-decoration: underline;
+    }
+    .prof{
+        font-weight: 750;
+    }
+    .money{
+        font-size: 20px;
+        color: red;
+        font-weight: 800;
+    }
+
+}
+
+@media (max-width: 600px){
+    .everydaymeal{
+        background-image: url("../img/back.jpg");
+        background-repeat: no-repeat;  
+        background-size: cover;
+        background-color: rgba(0, 0, 0, 0.35); 
+        background-blend-mode: overlay;
+        
+    }
+    .everydaymeal__texts{
+        padding-top: 4.5%;
+        padding-left: 9%;
+        padding-right: 5%;
+        padding-bottom: 5%;
+    }
+    .everydaymeal__img{
+        display: none;
+    }
+    .diet{
+        color: white;
+    }
+    .everydaymeal__texts-title{
+        margin-bottom: 1.5em;
+        font-size: 19.5px;
+        font-weight: 750;
+    }
+    
+    .everydaymeal__texts-text{
+        margin-bottom: 2.5em;
+        font-size: 17.4px;
+    }
+    .kyivpoint,
+    .prof{
+        color: white;
+        text-decoration: underline;
+    }
+    .prof{
+        font-weight: 700;
+    }
+    .money{
+        font-size: 19.5px;
+        color: red;
+        font-weight: 750;
+    }
+
+}
+
+@media (max-width: 480px){
+    .everydaymeal{
+        background-image: url("../img/back.jpg");
+        background-repeat: no-repeat;  
+        background-size: cover;
+        background-color: rgba(0, 0, 0, 0.35); 
+        background-blend-mode: overlay;
+        
+    }
+    .everydaymeal__texts{
+        padding-top: 4.5%;
+        padding-left: 9%;
+        padding-right: 6%;
+        padding-bottom: 5%;
+    }
+    .everydaymeal__img{
+        display: none;
+    }
+    .diet{
+        color: white;
+    }
+    .everydaymeal__texts-title{
+        margin-bottom: 1.5em;
+        font-size: 18.5px;
+        font-weight: 750;
+    }
+    
+    .everydaymeal__texts-text{
+        margin-bottom: 2.5em;
+        font-size: 16.4px;
+    }
+    .kyivpoint,
+    .prof{
+        color: white;
+        text-decoration: underline;
+    }
+    .prof{
+        font-weight: 650;
+    }
+    .money{
+        font-size: 18.5px;
+        color: red;
+        font-weight: 750;
+    }
+
+}
+
+@media (max-width: 400px){
+    .everydaymeal{
+        background-image: url("../img/back.jpg");
+        background-repeat: no-repeat;  
+        background-size: cover;
+        background-color: rgba(0, 0, 0, 0.35); 
+        background-blend-mode: overlay;
+        
+    }
+    .everydaymeal__texts{
+        padding-top: 4.5%;
+        padding-left: 9%;
+        padding-right: 8%;
+        padding-bottom: 5%;
+    }
+    .everydaymeal__img{
+        display: none;
+    }
+    .diet{
+        color: white;
+    }
+    .everydaymeal__texts-title{
+        margin-bottom: 1.5em;
+        font-size: 18px;
+        font-weight: 750;
+    }
+    
+    .everydaymeal__texts-text{
+        margin-bottom: 2.5em;
+        font-size: 16px;
+    }
+    .kyivpoint,
+    .prof{
+        color: white;
+        text-decoration: underline;
+    }
+    .prof{
+        font-weight: 600;
+    }
+    .money{
+        font-size: 17px;
+        color: red;
+        font-weight: 700;
+    }
+
 }
