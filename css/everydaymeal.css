@@ -61,9 +61,9 @@
 }
 
 .money{
-    font-size: 21px;
+    font-size: 20px;
     color: red;
-    font-weight: 700;
+    font-weight: 650;
 }
 
 @media (max-width: 1200px){
@@ -198,9 +198,9 @@
         font-weight: 750;
     }
     .money{
-        font-size: 21.5px;
+        font-size: 21px;
         color: red;
-        font-weight: 800;
+        font-weight: 700;
     }
 
 }
@@ -245,9 +245,9 @@
         font-weight: 750;
     }
     .money{
-        font-size: 20px;
+        font-size: 19.5px;
         color: red;
-        font-weight: 800;
+        font-weight: 700;
     }
 
 }
@@ -292,9 +292,9 @@
         font-weight: 700;
     }
     .money{
-        font-size: 19.5px;
+        font-size: 19px;
         color: red;
-        font-weight: 750;
+        font-weight: 700;
     }
 
 }
@@ -339,9 +339,9 @@
         font-weight: 650;
     }
     .money{
-        font-size: 18.5px;
+        font-size: 18px;
         color: red;
-        font-weight: 750;
+        font-weight: 700;
     }
 
 }
