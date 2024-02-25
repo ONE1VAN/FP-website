@@ -7,8 +7,8 @@
 
 .everydaymeal__texts{
     padding-top: 4.5%;
-    padding-left: 8%;
-    padding-right: 56%;
+    padding-left: 10%;
+    padding-right: 54%;
     padding-bottom: 2%;
     text-align: start;
     z-index: 2;
@@ -16,14 +16,14 @@
 
 .everydaymeal__img{
     padding-top: 2%;
-    padding-left: 53%;
+    padding-left: 60%;
     position: absolute;
     z-index: 1;
 }
 
 .everydaymeal__texts-title{
     margin-bottom: 1.5em;
-    font-size: 21.5px;
+    font-size: 22px;
     font-weight: 700;
 }
 .kyivpoint{
